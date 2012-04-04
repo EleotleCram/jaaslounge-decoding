@@ -23,4 +23,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>github-eleotlecram-repo</id>
+			<url>file://${user.home}/GitRepositories/maven-repo/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>github-eleotlecram-snapshot-repo</id>
+			<url>file://${user.home}/GitRepositories/maven-repo/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
